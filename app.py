@@ -5,10 +5,10 @@ from PIL import Image
 # Função principal
 def app():
     # Título da página
-    st.title('Sim ou Não?')
+    st.title('Perguntando ao meu xodózão...')
 
     # Pergunta
-    st.write("Você vai pra academia comigo?")
+    st.write("Aceitas ir pra academia comigo?")
 
     col1, col2 = st.columns(2) #dividindo a tela em 2 colunas
 
@@ -28,7 +28,7 @@ def app():
     
     with col2:
         if st.button('Não'):
-            st.write("Misericuerdia, estoy mirando um franguito")
+            st.write("Misericuerdia, estoy mirando un franguito")
             img = Image.open(mise_path)
             st.image(img, caption=' ', use_container_width=bool)
 
