@@ -16,20 +16,20 @@ def app():
     #resposta = st.radio("Escolha uma opção", ('Logico', 'Não vai dar 111'))
 
     # Caminhos absolutos para as imagens
-    dog_image_path = '/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/bora.jpg'
-    frango_image_path = '/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/mise.jpg'
+    bora_path = '/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/bora.jpg'
+    mise_path = '/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/mise.jpg'
 
     with col1:
         if st.button('Má, LÓGICO'):
             st.write("Então bora? Agora?")
-            img = Image.open('/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/bora.jpg')
+            img = Image.open(bora_path)
             st.image(img, caption=' ', use_container_width=bool)
 
     
     with col2:
         if st.button('Não'):
             st.write("Misericuerdia, estoy mirando um franguito")
-            img = Image.open('/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/mise.jpg')
+            img = Image.open(mise_path)
             st.image(img, caption=' ', use_container_width=bool)
 
 # Rodar a aplicação
