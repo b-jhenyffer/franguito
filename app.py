@@ -17,7 +17,7 @@ def app():
 
     # Caminhos absolutos para as imagens
     bora_path = 'data/bora.jpg'
-    mise_path = 'data/mise.jpg'
+    mise_path = 'data/mise.png'
 
     with col1:
         if st.button('Má, LÓGICO'):
