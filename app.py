@@ -16,8 +16,8 @@ def app():
     #resposta = st.radio("Escolha uma opção", ('Logico', 'Não vai dar 111'))
 
     # Caminhos absolutos para as imagens
-    dog_image_path = '/Users/jhenyfferborges/Documents/Projects/popopo/frangudo/data/dog.jpg'
-    frango_image_path = '/Users/jhenyfferborges/Documents/Projects/popopo/frangudo/data/frango.jpg'
+    dog_image_path = '/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/bora.jpg'
+    frango_image_path = '/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/mise.jpg'
 
     with col1:
         if st.button('Má, LÓGICO'):
