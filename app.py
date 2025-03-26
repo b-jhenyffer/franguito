@@ -22,14 +22,14 @@ def app():
     with col1:
         if st.button('Má, LÓGICO'):
             st.write("Então bora? Agora?")
-            img = Image.open('/Users/jhenyfferborges/Documents/Projects/popopo/frangudo/data/bora.jpg')
+            img = Image.open('/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/bora.jpg')
             st.image(img, caption=' ', use_container_width=bool)
 
     
     with col2:
         if st.button('Não'):
             st.write("Misericuerdia, estoy mirando um franguito")
-            img = Image.open('/Users/jhenyfferborges/Documents/Projects/popopo/frangudo/data/mise.jpg')
+            img = Image.open('/Users/jhenyfferborges/Documents/Projects/frango2/franguito/data/mise.jpg')
             st.image(img, caption=' ', use_container_width=bool)
 
 # Rodar a aplicação
